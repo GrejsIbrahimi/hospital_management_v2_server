@@ -1,0 +1,14 @@
+package com.polishealt.hospital_management_v2.repositories;
+
+import com.polishealt.hospital_management_v2.model.ClinicalData;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+/**
+ * Repository interface for managing ClinicalData entities in the database.
+ * Extends JpaRepository to inherit standard CRUD operations.
+ */
+@Repository
+public interface ClinicalDataRepository extends JpaRepository<ClinicalData, Long> {
+
+}
